@@ -1,0 +1,87 @@
+body {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81WZIM51pML._AC_SX679_.jpg");
+    font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
+}
+.content {
+    background-color: darkorange;
+    color: blue;
+    width: 100%;
+    max-width: 960px;
+    Margin: 0 auto;
+    clear: both;
+}
+.content > nav {
+    display: inline-block;
+    align-content: flex-end;
+    margin: 0 0 0 40%;
+    padding: 10px 0 20px 10px;
+}
+.name-logo {
+    font-size: 50px;
+    padding: 20px 0 10px 10px;
+    text-decoration: none;
+    color: blue
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+nav > a:hover {
+    color: blue;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: blue
+}
+iframe {
+    max-width: 40%;
+    width: 100%;
+}
+.container > p {
+    max-width: 60%;
+    width: 60%;
+    padding: 20px;
+}
+footer {
+    max-width: 960px;
+    background-color: gold;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    padding: 20px 0 20px 0;
+}
+footer > p {
+    text-align: center;
+}
+.container-contact {
+    border: 10px solid yellow;
+}
+.wrapper {
+    padding: 0 20px 0 20px;
+    width: 100%;
+    
+}
+form > input, form > textarea {
+    width: 95%;
+    align-content: center;
+}
+button {
+    width: 200px;
+    height: 70px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button:hover {
+    color: blue;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.imgtxt {
+    text-align: center;
+}
